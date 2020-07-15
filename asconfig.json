@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"output": "bin-debug/ASBrowser.swf",
+		"source-path": [
+			"src",
+			"resources",
+			"html"
+		],
+		"library-path": [
+			"libs",
+			"ane/WebViewANE.ane",
+			"ane/FreSharp.ane",
+			"ane/FreSwift.ane"
+		]
+	},
+	"files": [
+		"src/ASBrowser.as"
+	],
+	"application": "src/ASBrowser-app.xml",
+	"copySourcePathAssets": true,
+	"additionalOptions": "-locale en_US",
+	"airOptions": {
+		"output": "ASBrowser.air",
+		"signingOptions": {
+			"keystore": "cert/pc-win.p12",
+			"storetype": "pkcs12"
+		},
+		"extdir": [
+			"ane/"
+		]
+	},
+	"config": "air"
+}

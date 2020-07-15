@@ -1,0 +1,141 @@
+[
+    {
+        "name": "高校",
+        "type": "2",
+        "domain": "gaoxiao",
+        "face": "",
+        "reg": "",
+        "server": "http://cloud.gaoxiao.qjxxpt.com/",
+        "home": "http://gaoxiao.qjxxpt.com/",
+        "vod": ""
+    },
+    {
+        "name": "莆田侨中一区",
+        "type": "2",
+        "domain": "hqzx",
+        "face": "http://school.qjxxpt.com/face/hqzx.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://cloud.put.qjxxpt.com/",
+        "home": "http://put.qjxxpt.com/",
+        "vod": "http://put-vod.qjxxpt.com/flv/"
+    },
+    {
+        "name": "莆田侨中二区",
+        "type": "2",
+        "domain": "hqzx2",
+        "face": "http://school.qjxxpt.com/face/hqzx.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://cloud-shanguo.qjxxpt.com/",
+        "home": "http://shanguo.qjxxpt.com/"
+    },
+    {
+        "name": "滕州二中",
+        "type": "2",
+        "domain": "tengz",
+        "face": "http://school.qjxxpt.com/face/tengz.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://cloud.tz2.qjxxpt.com/",
+        "home": "http://tz2.qjxxpt.com/"
+    },
+    {
+        "name": "滕州一中高二",
+        "type": "2",
+        "domain": "xin2",
+        "face": "http://school.qjxxpt.com/face/tengz.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://cloud.xin2.qjxxpt.com/",
+        "home": "http://xin2.qjxxpt.com/"
+    },
+    {
+        "name": "滕州三中",
+        "type": "2",
+        "domain": "tengz3",
+        "face": "http://school.qjxxpt.com/face/tengz.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://cloud.tz3.qjxxpt.com/",
+        "home": "http://tz3.qjxxpt.com/"
+    },
+    {
+        "name": "滕州一中高三",
+        "type": "2",
+        "domain": "sygz",
+        "face": "http://school.qjxxpt.com/face/tengz.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://cloud.sygz.qjxxpt.com/",
+        "home": "http://sygz.qjxxpt.com/"
+    },
+    {
+        "name": "滕州移动",
+        "type": "2",
+        "domain": "tzyd",
+        "face": "http://school.qjxxpt.com/face/tengz.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://120.224.92.49:1008/",
+        "home": "http://120.224.92.49:1008/clsc/webqjxx/"
+    },
+    {
+        "name": "西南一区在线课堂",
+        "type": "2",
+        "domain": "xinan",
+        "face": "http://school.qjxxpt.com/face/xinan.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://cloud.xinan.qjxxpt.com/",
+        "home": "http://xinan.qjxxpt.com/"
+    },
+    {
+        "name": "西南三区",
+        "type": "2",
+        "domain": "xinan3",
+        "face": "http://school.qjxxpt.com/face/xinan.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://cloud-xinan3.qjxxpt.com/",
+        "home": "http://xinan3.qjxxpt.com/",
+        "vod": "http://cdn-xinan3.qjxxpt.com/flv/"
+    },
+    {
+        "name": "西南六区",
+        "type": "2",
+        "domain": "xinan6",
+        "face": "http://school.qjxxpt.com/face/xinan.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://203.6.235.45:1008/",
+        "home": "http://203.6.235.45:1008/clsc/webqjxx/"
+    },
+    {
+        "name": "西南七区",
+        "type": "2",
+        "domain": "xinan7",
+        "face": "http://school.qjxxpt.com/face/xinan.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://101.206.211.14:1008/",
+        "home": "http://101.206.211.14:1008/clsc/webqjxx/"
+    },
+    {
+        "name": "北京教育",
+        "type": "2",
+        "domain": "bjjy",
+        "face": "http://school.qjxxpt.com/face/xinan.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://171.84.2.12/",
+        "home": "http://171.84.2.12/clsc/webqjxx/"
+    },
+    {
+        "name": "测试区",
+        "type": "2",
+        "domain": "test",
+        "face": "http://school.qjxxpt.com/face/xinan.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://117.73.9.132:1008/",
+        "home": "http://117.73.9.132:1008/clsc/webqjxx/"
+    },
+    {
+        "name": "职教一区",
+        "type": "3",
+        "domain": "zhijiao1",
+        "area_domain": "gaoxiao",
+        "face": "http://school.qjxxpt.com/face/xinan.jpg",
+        "reg": "http://ncet2.qjxxpt.com/Login/zhuce2.html",
+        "server": "http://cloud.deyu.qjxxpt.com/",
+        "home": "http://zhijiao.qjxxpt.com/"
+    }
+]

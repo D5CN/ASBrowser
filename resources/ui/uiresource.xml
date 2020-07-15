@@ -1,0 +1,6 @@
+<data nameString='' subUIResource='' width='200' height='200'>
+  <res path="ui/top_bar.png" type="5" name="ui/top_bar.png" posx="7" posy="9" offX="0" offY="0" w="32" h="45" cutx1="7" cuty1="0" cutx2="0" cuty2="0" label="" extData=""/>
+  <res path="ui/top_btn.png" type="4" name="ui/top_btn.png" posx="44" posy="9" offX="0" offY="0" w="128" h="32" cutx1="0" cuty1="0" cutx2="0" cuty2="0" label="" extData=""/>
+  <res path="ui/icon_close.png" type="2" name="ui/icon_close.png" posx="178" posy="10" offX="0" offY="0" w="20" h="20" cutx1="0" cuty1="0" cutx2="0" cuty2="0" label="" extData=""/>
+  <res path="ui/logo.png" type="2" name="ui/logo.png" posx="9" posy="61" offX="0" offY="0" w="112" h="26" cutx1="0" cuty1="0" cutx2="0" cuty2="0" label="" extData=""/>
+</data>

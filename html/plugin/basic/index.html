@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>ASBrowser :: A ActionScript browser framework.</title>
+        <link rel="stylesheet" href="../core/css/markdown.css">
+        <script type="text/javascript" src="../core/marked.min.js"></script>
+    </head>
+    <body>
+        <div style="padding:20px;font-family: Verdana, Geneva, Tahoma, sans-serif;" class="markdown-body" id="mainbox">Welcome to ASBroswer。
+## Debug Function
+Click top bar to make sure programe get focus.and then you can:
+
+ctrl+F5 = Flush 
+
+ctrl+F12 = Open Developer Tool
+
+Click Logo you can go back to homepage.
+
+## Where your html code is
+You can save your html code in plugin/ folder (html/plugin/ in source code).
+This page's path is plugin/basic/index.html
+
+If you need communicate with main programe,you need include plugin/core/AJSdk.js in your html code.
+## AJSdk Ablity
+1.Read local file and back to js
+
+    AJCall('loadFile',function (res) {
+        // if read success,res will be the content of the file which you loaded. and will be null if can not get this file.
+    },'core/domain.json');
+
+Note:You can ONLY read file in plugin folder.
+
+2.Write File [Coming soon]
+
+3.SQLite support [Coming soon]
+        </div>
+    </body>
+    <script>
+        var result = document.getElementById('mainbox').innerHTML;
+        result = marked(result);
+        document.getElementById('mainbox').innerHTML = result;
+    </script>
+</html>
