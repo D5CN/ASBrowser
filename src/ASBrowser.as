@@ -89,16 +89,6 @@ public class ASBrowser extends Sprite {
         if (hasActivated) return;
          // this is handle the HARMAN splash screen
         hasActivated = true;
-        var loader:FontLoader = new FontLoader( new URLRequest( 'font.swf' ) );
-		loader.addEventListener(Event.COMPLETE,onFontLoaded);
-        
-    }
-
-    private function onFontLoaded(e:Event):void
-    {
-        var loader:FontLoader = e.currentTarget as FontLoader;
-        loader.removeEventListener(Event.COMPLETE,onFontLoaded);
-
         new ResLibParser('d5ui.res',function():void{
             D5Style.initUI('ui/uiresource',function():void{setTimeout(init, 0);});
         });

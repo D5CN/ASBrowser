@@ -21,13 +21,25 @@
 	"additionalOptions": "-locale en_US",
 	"airOptions": {
 		"output": "ASBrowser.air",
-		"signingOptions": {
-			"keystore": "cert/pc-win.p12",
-			"storetype": "pkcs12"
-		},
 		"extdir": [
 			"ane/"
-		]
+		],
+		"windows": {
+			"target": "bundle",
+			"output": "bin/ASBroswer",
+			"signingOptions": {
+				"keystore": "cert/pc-win.p12",
+				"storetype": "pkcs12"
+			}
+		},
+		"mac": {
+			"target": "bundle",
+			"output": "./ASBroswer.app",
+			"signingOptions": {
+				"storetype": "pkcs12",
+				"keystore": "cert/123.p12"
+			}
+		}
 	},
 	"config": "air"
 }
