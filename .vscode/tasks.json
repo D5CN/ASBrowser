@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "actionscript",
+            "clean": true,
+            "group": "build",
+            "label": "Adobe AIR: Clean - asconfig.json"
+        },
+        {
+            "type": "actionscript",
+            "debug": true,
+            "group": "build",
+            "problemMatcher": [],
+            "label": "Adobe AIR: Complite Mac debug - asconfig.json"
+        },
+        {
+            "type": "actionscript",
+            "debug": false,
+            "air": "mac",
+            "group":"build",
+            "problemMatcher": [],
+            "label": "Adobe AIR: package Mac release - asconfig.json"
+        }
+    ]
+}

@@ -131,10 +131,12 @@ package com.d5power.ui
 
 				switch(e.keyCode)
 				{
-					case Keyboard.F5:
+					case Keyboard.F5: // PC
+					case 116: //MAC
 						asbrow.onRefresh();
 						break;
-					case Keyboard.F12:
+					case Keyboard.F12: // PC
+					case 123: //MAC
 						asbrow.onDevTools();
 						break;
 					case Keyboard.J:
