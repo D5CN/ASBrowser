@@ -495,7 +495,7 @@ public class ASBrowser extends Sprite {
     private function onResize(e:Event):void {
         _appWidth = this.stage.stageWidth;
         _appHeight = this.stage.stageHeight;
-        updateWebViewOnResize();
+        _appHeight>0 && _appWidth>0 && updateWebViewOnResize();
     }
 
     /**

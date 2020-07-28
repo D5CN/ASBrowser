@@ -22,6 +22,12 @@
 
     function AJInstall(callback)
     {
+        if(aj_installed)
+        {
+            callback.apply();
+            return;
+        }
+
         if (isChromium) {
             // Important: CefSharp binding must now be performed async
             (async () => {
@@ -34,6 +40,7 @@
             })();
         } else {
             aj_installed = true;
+            callback.apply();
         }
     }
 
